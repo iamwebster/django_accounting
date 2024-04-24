@@ -77,14 +77,14 @@ $ docker-compose up --build -d
 ```json
 {
     "username": "your username",
-    "password": "your password",
+    "password": "your password"
 }
 ```
 Вход как администратор:
 ```json
 {
     "username": "admin",
-    "password": "123",
+    "password": "123"
 }
 ```
 
