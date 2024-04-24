@@ -71,9 +71,9 @@ $ docker-compose --build -d
 [127.0.0.1:8000/api/auth/users/](http://127.0.0.1:8000/api/auth/users/) по POST-запросу
 ```json
 {
-    "username": "sting(your username)",
-    "password": "string(your password)",
-    "email": "string(your email)" 
+    "username": "your username",
+    "password": "your password",
+    "email": "your email" 
 }
 ```
 
@@ -81,8 +81,8 @@ $ docker-compose --build -d
 [127.0.0.1:8000/api/auth/token/login/](http://127.0.0.1:8000/api/auth/token/login/) по POST-запросу
 ```json
 {
-    "username": "sting(your username)",
-    "password": "string(your password)",
+    "username": "your username",
+    "password": "your password",
 }
 ```
 Вход как администратор:
