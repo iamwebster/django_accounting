@@ -36,7 +36,6 @@ class Equipment(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name='Категория')
     quantity = models.PositiveIntegerField(verbose_name='Количество')
     stock = models.ForeignKey(Stock, on_delete=models.CASCADE, verbose_name='Склад')
-    serial_number = models.CharField(max_length=50, null=True, blank=True, verbose_name='Серийный номер')
     manufacturer = models.CharField(max_length=255, verbose_name='Производитель')
     receipt_date = models.DateField(verbose_name='Дата поступления')
 

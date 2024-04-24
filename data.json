@@ -1,0 +1,633 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-04-22T17:51:30.687Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Спорт",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-04-22T17:51:37.980Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Спортивный инвентарь",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-04-22T17:52:21.332Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Балашиха Склад",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-04-22T17:58:51.724Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Лыжи",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-04-22T18:52:46.700Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Футбольный мяч | 01 | Экстрим",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-04-22T18:53:36.365Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Теннисная ракетка | Стиль СССР | СпортЛайф",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-04-22T21:00:41.438Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "aaa",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-04-24T03:38:09.275Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Бытовая техника",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-04-24T03:39:54.194Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Балашиха Склад",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u0434\\u0440\\u0435\\u0441\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-04-24T03:41:43.662Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Серпухов Склад",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-04-24T03:42:26.669Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Луховицы Склад",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-04-24T03:42:48.801Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Мытищи Склад",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-04-24T03:43:43.034Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "Чехов Склад",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-04-24T03:56:20.072Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Игрушки",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-04-24T03:57:24.224Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Аксессуары для смартфонов",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-04-24T04:00:47.205Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Текстиль",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\", \"object\": \"\\u041f\\u043e\\u0441\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e\\u0435 \\u0431\\u0435\\u043b\\u044c\\u0435 \\u0422\\u0440\\u043e\\u043f\\u0438\\u043a\\u0438 | 01 | \\u041d\\u0435\\u0436\\u043d\\u0430\\u044f \\u041d\\u043e\\u0447\\u044c\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-04-24T04:02:37.553Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Защитное стекло | iPhone 15 | Maximum Protection",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-04-24T04:04:26.580Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Портативный аккумулятор Apple MagSafe Battery Pack | A2384 | Apple",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-04-24T04:06:07.348Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Профессиональный капучинатор LERAN | MLK 900 | Leran",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-04-24T04:07:35.871Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Тостер для хлеба LUMME | LU-1201 700 Вт | Lumme",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-04-24T04:11:36.091Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Кофемолка CHEF PRO | CF-CG1400A электрическая 500Вт | CHEF PRO",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-04-24T04:14:42.363Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Подушка GALTEX 70х70см | Лебяжий пух, силиконизированное волокно, чехол из тика | Мягкий мир",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-04-24T04:15:04.900Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Подушка GALTEX 70х70см | Лебяжий пух, силиконизированное волокно | Мягкий мир",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"\\u041c\\u043e\\u0434\\u0435\\u043b\\u044c\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-04-24T04:15:32.810Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Портативный аккумулятор MagSafe Battery Pack | A2384 | Apple",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-04-24T04:18:03.510Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Одеяло стеганое 1,5 спальное 140х205 \"Лебяжий пух\" | Облегченное в чехле из глосс-сатина | Мягкий мир",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-04-24T04:20:10.511Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Одеяло стеганое 1,5 спальное 140х205 | Облегченное в чехле из глосс-сатина | Мягкий мир",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-04-24T04:20:19.628Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Одеяло стеганое 1,5 спальное 140х205см | Облегченное в чехле из глосс-сатина | Мягкий мир",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043e\\u0431\\u043e\\u0440\\u0443\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-04-24T04:21:06.248Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "aaa",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-04-24T04:21:13.556Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "bbb",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$pFKyzETWmQgtbMJuJuPsCo$Dt9HO/gFUYdGGdVJun8z54pAi6+4xlgS4OGmQyRpS7w=",
+            "last_login": "2024-04-24T03:32:08.295Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-22T17:39:38.277Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "5kf1me1mkoen58mh6rl5ha3c20geo7i0",
+        "fields": {
+            "session_data": ".eJxVjMEOwiAQRP-FsyFdCoV69N5vILuwSNVAUtqT8d9tkx70Npn3Zt7C47ZmvzVe_BzFVYC4_HaE4cnlAPGB5V5lqGVdZpKHIk_a5FQjv26n-3eQseV9bXuEBIFIMSviYdT9yB0rYHCDteCiC9YkbY0yrtcQO0Zyml1UmPYsPl_kiDgD:1rzTMe:oOKb8gFFIRdjp4J3qXUUQ-cK8Qkl4Wse7XSSvO78kmQ",
+            "expire_date": "2024-05-08T03:32:08.304Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "eq04x2fkv9lrl2e1fxxl06bwptgj8uvn",
+        "fields": {
+            "session_data": ".eJxVjMEOwiAQRP-FsyFdCoV69N5vILuwSNVAUtqT8d9tkx70Npn3Zt7C47ZmvzVe_BzFVYC4_HaE4cnlAPGB5V5lqGVdZpKHIk_a5FQjv26n-3eQseV9bXuEBIFIMSviYdT9yB0rYHCDteCiC9YkbY0yrtcQO0Zyml1UmPYsPl_kiDgD:1ryyJm:ZQKZtMAB3Tpu8uUoSEVN21eZ0GtA_gMDqaySHn86oKg",
+            "expire_date": "2024-05-06T18:23:06.637Z"
+        }
+    },
+    {
+        "model": "main.stock",
+        "pk": 1,
+        "fields": {
+            "name": "Балашиха Склад",
+            "address": "г. Балашиха ул. Ивана Франко 4 стр. 5",
+            "capacity": 10000,
+            "is_active": true
+        }
+    },
+    {
+        "model": "main.stock",
+        "pk": 2,
+        "fields": {
+            "name": "Серпухов Склад",
+            "address": "Кемеровская область, город Серпухов, пр. Славы, 33",
+            "capacity": 1000000,
+            "is_active": true
+        }
+    },
+    {
+        "model": "main.stock",
+        "pk": 3,
+        "fields": {
+            "name": "Луховицы Склад",
+            "address": "Пензенская область, город Луховицы, пл. Гоголя, 39",
+            "capacity": 10000,
+            "is_active": true
+        }
+    },
+    {
+        "model": "main.stock",
+        "pk": 4,
+        "fields": {
+            "name": "Мытищи Склад",
+            "address": "Новосибирская область, город Мытищи, шоссе Гагарина, 44",
+            "capacity": 100000,
+            "is_active": true
+        }
+    },
+    {
+        "model": "main.stock",
+        "pk": 5,
+        "fields": {
+            "name": "Чехов Склад",
+            "address": "Челябинская область, город Чехов, ул. Гагарина, 49",
+            "capacity": 10000,
+            "is_active": true
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 1,
+        "fields": {
+            "name": "Спортивный инвентарь",
+            "description": ""
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 2,
+        "fields": {
+            "name": "Бытовая техника",
+            "description": ""
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 3,
+        "fields": {
+            "name": "Игрушки",
+            "description": ""
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 4,
+        "fields": {
+            "name": "Аксессуары для смартфонов",
+            "description": ""
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 5,
+        "fields": {
+            "name": "Текстиль",
+            "description": ""
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 2,
+        "fields": {
+            "name": "Футбольный мяч",
+            "model": "01",
+            "category": 1,
+            "quantity": 5,
+            "stock": 1,
+            "manufacturer": "Экстрим",
+            "receipt_date": "2024-04-24"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 3,
+        "fields": {
+            "name": "Теннисная ракетка",
+            "model": "Стиль СССР",
+            "category": 1,
+            "quantity": 22,
+            "stock": 1,
+            "manufacturer": "СпортЛайф",
+            "receipt_date": "2024-04-24"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 4,
+        "fields": {
+            "name": "Постельное белье Тропики",
+            "model": "01",
+            "category": 5,
+            "quantity": 35,
+            "stock": 2,
+            "manufacturer": "Нежная Ночь",
+            "receipt_date": "2024-04-24"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 5,
+        "fields": {
+            "name": "Защитное стекло",
+            "model": "iPhone 15",
+            "category": 4,
+            "quantity": 120,
+            "stock": 5,
+            "manufacturer": "Maximum Protection",
+            "receipt_date": "2024-04-12"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 6,
+        "fields": {
+            "name": "Портативный аккумулятор MagSafe Battery Pack",
+            "model": "A2384",
+            "category": 4,
+            "quantity": 90,
+            "stock": 4,
+            "manufacturer": "Apple",
+            "receipt_date": "2024-03-01"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 7,
+        "fields": {
+            "name": "Профессиональный капучинатор LERAN",
+            "model": "MLK 900",
+            "category": 2,
+            "quantity": 50,
+            "stock": 2,
+            "manufacturer": "Leran",
+            "receipt_date": "2023-02-04"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 8,
+        "fields": {
+            "name": "Тостер для хлеба LUMME",
+            "model": "LU-1201 700 Вт",
+            "category": 2,
+            "quantity": 150,
+            "stock": 3,
+            "manufacturer": "Lumme",
+            "receipt_date": "2023-12-24"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 9,
+        "fields": {
+            "name": "Кофемолка CHEF PRO",
+            "model": "CF-CG1400A электрическая 500Вт",
+            "category": 2,
+            "quantity": 230,
+            "stock": 3,
+            "manufacturer": "CHEF PRO",
+            "receipt_date": "2024-04-18"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 10,
+        "fields": {
+            "name": "Подушка GALTEX 70х70см",
+            "model": "Лебяжий пух, силиконизированное волокно",
+            "category": 5,
+            "quantity": 150,
+            "stock": 4,
+            "manufacturer": "Мягкий мир",
+            "receipt_date": "2024-03-28"
+        }
+    },
+    {
+        "model": "main.equipment",
+        "pk": 11,
+        "fields": {
+            "name": "Одеяло стеганое 1,5 спальное 140х205см",
+            "model": "Облегченное в чехле из глосс-сатина",
+            "category": 5,
+            "quantity": 320,
+            "stock": 4,
+            "manufacturer": "Мягкий мир",
+            "receipt_date": "2024-02-02"
+        }
+    }
+]

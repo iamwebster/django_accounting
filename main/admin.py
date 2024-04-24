@@ -30,7 +30,7 @@ class CategoryAdmin(admin.ModelAdmin):
 @admin.register(Equipment)
 class EquipmentAdmin(admin.ModelAdmin):
     list_display = ['name', 'model', 'manufacturer', 'quantity']
-    search_fields = ['name', 'model', 'serial_number', 'manufacturer']
+    search_fields = ['name', 'model', 'manufacturer']
     list_filter = ['category__name', 'stock__name',]
 
 
