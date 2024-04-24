@@ -71,9 +71,9 @@ $ docker-compose --build -d
 [127.0.0.1:8000/api/auth/users/](http://127.0.0.1:8000/api/auth/users/) по POST-запросу
 ```json
 {
-    "username": sting(username),
-    "password": string(password),
-    "email": string(email) 
+    "username": "sting(your username)",
+    "password": "string(your password)",
+    "email": "string(your email)" 
 }
 ```
 
@@ -81,8 +81,8 @@ $ docker-compose --build -d
 [127.0.0.1:8000/api/auth/token/login/](http://127.0.0.1:8000/api/auth/token/login/) по POST-запросу
 ```json
 {
-    "username": sting(username),
-    "password": string(password),
+    "username": "sting(your username)",
+    "password": "string(your password)",
 }
 ```
 Вход как администратор:
@@ -101,7 +101,7 @@ $ docker-compose --build -d
 ```
 
 ## Возможности проекта
-`После авторизации Вам будет доступна возможность использовать эндпоинты с методом GET. Если вы зашли как администратор, то дополнительно еще можете выполнять CRUD операции с конкреными записями.`
+`После авторизации Вам будет доступна возможность использовать эндпоинты с методом GET. Если вы зашли как администратор, то дополнительно еще можете выполнять CRUD операции с конкретными записями.`
 
 Посмотреть все API-эндпоинты можно по адресу:
 [127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
